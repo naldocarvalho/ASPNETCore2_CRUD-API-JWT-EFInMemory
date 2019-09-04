@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using APIProdutos.Models;
+﻿using APIProdutos.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace APIProdutos.Data
 {

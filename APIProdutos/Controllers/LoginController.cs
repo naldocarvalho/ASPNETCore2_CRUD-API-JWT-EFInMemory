@@ -1,12 +1,12 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
+﻿using APIProdutos.Business;
+using APIProdutos.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Principal;
-using Microsoft.IdentityModel.Tokens;
-using APIProdutos.Business;
-using APIProdutos.Models;
 
 namespace APIProdutos.Controllers
 {

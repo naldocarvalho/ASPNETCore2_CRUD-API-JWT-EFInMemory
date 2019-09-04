@@ -6,3 +6,14 @@ C:\projects\imasters\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\n
 C:\projects\imasters\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.csproj.CoreCompileInputs.cache
 C:\projects\imasters\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.AssemblyInfoInputs.cache
 C:\projects\imasters\ASPNETCore2_CRUD-API-JWT-EFInMemory\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.AssemblyInfo.cs
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.csprojAssemblyReference.cache
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.csproj.CoreCompileInputs.cache
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.AssemblyInfoInputs.cache
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.AssemblyInfo.cs
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.deps.json
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.runtimeconfig.json
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.runtimeconfig.dev.json
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.dll
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\bin\Debug\netcoreapp2.0\APIProdutos.pdb
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.dll
+C:\Github\ASPNETCore2_GraphQL\APIProdutos\obj\Debug\netcoreapp2.0\APIProdutos.pdb

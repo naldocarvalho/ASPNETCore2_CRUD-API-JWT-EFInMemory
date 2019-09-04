@@ -1,10 +1,6 @@
 ﻿using APIProdutos.Data;
 using APIProdutos.Models.GraphQL;
 using GraphQL.Types;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace APIProdutos.Queries
 {
@@ -22,6 +18,14 @@ namespace APIProdutos.Queries
                     return produtos;
                 });
 
+            Field<ListGraphType<UsuarioType>>(
+                "usuarios",
+                resolve: context =>
+                {
+                    var clientes = db
+                    .Usuarios;
+                    return clientes;
+                });
         }
     }
 }

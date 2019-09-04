@@ -1,15 +1,15 @@
-﻿using System;
+﻿using APIProdutos.Business;
+using APIProdutos.Data;
+using APIProdutos.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Microsoft.EntityFrameworkCore;
-using APIProdutos.Data;
-using APIProdutos.Models;
-using APIProdutos.Business;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System;
 
 namespace APIProdutos
 {
@@ -74,11 +74,11 @@ namespace APIProdutos
             services.AddMvc();
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
-             UsuarioService usrService, ProdutoService produtoService)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, UsuarioService usrService, ProdutoService produtoService)
         {
             usrService.Incluir(
                 new Usuario() { ID = "usuario01", ChaveAcesso = "94be650011cf412ca906fc335f615cdc" });
+
             usrService.Incluir(
                 new Usuario() { ID = "usuario02", ChaveAcesso = "531fd5b19d58438da0fd9afface43b3c" });
 

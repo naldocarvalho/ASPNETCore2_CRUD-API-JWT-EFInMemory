@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using APIProdutos.Business;
+﻿using APIProdutos.Business;
 using APIProdutos.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace APIProdutos.Controllers
 {

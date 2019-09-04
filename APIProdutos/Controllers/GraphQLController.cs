@@ -1,17 +1,9 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Security.Principal;
-using Microsoft.IdentityModel.Tokens;
-using APIProdutos.Business;
-using APIProdutos.Models;
+﻿using APIProdutos.Data;
 using APIProdutos.Queries;
 using GraphQL;
-using System.Threading.Tasks;
-using APIProdutos.Data;
 using GraphQL.Types;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace APIProdutos.Controllers
 {
